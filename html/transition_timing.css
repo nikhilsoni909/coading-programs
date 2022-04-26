@@ -1,0 +1,34 @@
+/* ease:slow start fast slow end it is defalut one
+linear:same speed all the time
+ease in:slow start
+easse -out:slow end
+ease in out:slow start fast slow end it is */
+div {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  color: white;
+  margin: 15px;
+  /* transition: all 1s ease; */
+  /* ease is the default value */
+  /* transition: all 1s linear; */
+  transition: all 1s;
+}
+div:hover {
+  transform: translateX(100px);
+}
+.ease {
+  transition-timing-function: ease;
+}
+.linear {
+  transition-timing-function: linear;
+}
+.ease-in {
+  transition-timing-function: ease-in;
+}
+.ease-out {
+  transition-timing-function: ease-out;
+}
+.ease-in-out {
+  transition-timing-function: ease-in-out;
+}

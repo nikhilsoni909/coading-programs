@@ -1,0 +1,29 @@
+img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+.banner {
+  margin: 20px;
+  width: 80vw;
+  height: 70vh;
+  border: 5px red solid;
+  position: relative;
+}
+.one {
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.two {
+  top: 10%;
+  left: 10%;
+  z-index: -1;
+}
+
+.one {
+  top: 20%;
+  left: 20%;
+  z-index: -2;
+  /* z index only works with the reletive and absolute position not with static position */
+}

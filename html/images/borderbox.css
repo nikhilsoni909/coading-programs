@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.one,
+.two,
+.three {
+  width: 200px;
+  height: 200px;
+  color: white;
+}
+.one {
+  background: red;
+  padding: 10px;
+  box-sizing: border-box;
+  /* this will subtract padding size from the contact and then add pading to the box */
+}
+
+.two {
+  background: blue;
+}
+.three {
+  background: green;
+  padding: 10px;
+}

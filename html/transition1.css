@@ -1,0 +1,28 @@
+div {
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+}
+div:hover {
+  background: coral;
+}
+.one {
+  background: blue;
+}
+.two {
+  background: red;
+}
+.three {
+  background: orange;
+  /* transition-property: background, border-radius;
+  transition-duration: 4s, 2s;
+  transition-delay: 3s; */
+  /* transition: background 3s 2s, border-radius 5s 2s; */
+  /* first one is duration and second one is background delay */
+
+  /* now for all prperties */
+  transition: all 3s 2s;
+}
+.three:hover {
+  border-radius: 50%;
+}

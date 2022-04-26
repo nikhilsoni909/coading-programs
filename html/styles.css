@@ -1,0 +1,32 @@
+/* h1 {
+  color: goldenrod;
+}
+h2 {
+  color: blue;
+}
+p {
+  color: blueviolet;
+  font-size: 2rem;
+} */
+
+/* body {
+  color: red;
+}
+h1,
+h2 {
+  color: blue;
+} */
+
+/* coloring a seperate line */
+#uncle {
+  color: yellow;
+  background: black;
+}
+#nameste {
+  color: red;
+  background: blue;
+}
+#kaam {
+  color: gold;
+  background: pink;
+}

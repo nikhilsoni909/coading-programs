@@ -1,0 +1,14 @@
+.header h1 {
+  color: green;
+}
+.header > h1 {
+  color: purple;
+}
+div h1 {
+  /* descendent */
+  color: red;
+}
+div > h1 {
+  /* child */
+  color: blue;
+}

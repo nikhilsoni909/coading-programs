@@ -1,0 +1,15 @@
+html {
+  font-size: 32px;
+}
+div {
+  font-size: 40px;
+}
+.hello {
+  font-size: 2rem;
+
+  /* rem size doesnot depend on the div it depend on the html */
+  /* 2rem=2*htmlfontsize */
+}
+.uncle {
+  font-size: 20px;
+}

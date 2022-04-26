@@ -1,0 +1,17 @@
+/* importing from goggle fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,900&display=swap");
+body {
+  font-family: verdana;
+  /* simple fonts  */
+}
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /* generic fonts */
+}
+h2 {
+  /* goggle fonts */
+  font-family: "Neonderthaw", cursive;
+}
+h3 {
+  font-family: "Roboto", sans-serif;
+}

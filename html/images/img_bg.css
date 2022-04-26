@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+div {
+  min-height: 100vh;
+  color: red;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+/* div {
+  height: 200px;
+
+  color: blue;
+} */
+.big {
+  background: url("./big_image.jpeg");
+  background-repeat: rounds;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* .small {
+  background: url("./small.jpeg");
+  background-repeat: no-repeat;
+  background-repeat: repeat;
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-position: bottom;
+  background-position: left; 
+  background-position: 0 0; 
+  background-position: 50% 20%;
+} */
+.small {
+  background-image: url("./img/folder.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.folder {
+  background: url("./big_image.jpeg");
+  /* background-size: contain; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}

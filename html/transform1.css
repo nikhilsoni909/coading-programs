@@ -1,0 +1,27 @@
+div {
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+}
+.one {
+  background: blue;
+  /* transform: translateX(50%); */
+  /* transform: scale(3, 4); */
+  /* transform: rotateZ(45deg); */
+  transform: skewX(20deg);
+}
+.two {
+  background: red;
+  /* transform: translateY(20px); */
+  /* transform: scalex(2); */
+  /* transform: rotateX(45deg); */
+  /* transform: rotateY(88deg); */
+  transform: skewY(30deg);
+}
+.three {
+  background: orange;
+  transform: skew(50deg, 8deg);
+  /* transform: scaleY(2); */
+  /* transform: rotate(45deg); */
+  /* transform: translate(200px, 200px); */
+}

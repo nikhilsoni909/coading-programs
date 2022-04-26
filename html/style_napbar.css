@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+}
+.napbar {
+  background: blue;
+  height: 100px;
+  color: white;
+  font-size: 3rem;
+}
+.banner {
+  background: red;
+  min-height: calc(100vh - 100px);
+}

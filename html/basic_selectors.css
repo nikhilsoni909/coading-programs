@@ -1,0 +1,16 @@
+* {
+  color: red;
+}
+#heading {
+  font-size: 50px;
+  text-transform: uppercase;
+  color: blue;
+}
+.heading {
+  font-size: 20px;
+  text-transform: capitalize;
+  color: rgb(0, 255, 106);
+}
+p {
+  letter-spacing: 20px;
+}

@@ -1,0 +1,14 @@
+.green {
+  color: green;
+}
+div {
+  border: 3px black solid;
+  color: red;
+  background: gray;
+}
+span {
+  text-transform: uppercase;
+}
+* {
+  color: yellow;
+}

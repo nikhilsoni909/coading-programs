@@ -1,0 +1,38 @@
+:root {
+  --primarycolor: #1313fa;
+  --secondarycolor: #f15025;
+  --maintransition: all 0.4s linear;
+}
+.heading {
+  color: var(--primarycolor);
+}
+.second-heading {
+  color: var(--primarycolor);
+  transition: var(--maintransition);
+}
+.second-heading:hover {
+  color: var(--secondarycolor);
+  transition: var(--maintransition);
+}
+div {
+  --primaryred: red;
+}
+.main-text {
+  color: var(--primaryred);
+}
+.third-heading {
+  color: var(--primaryred);
+  /* this will not work because it is a local var */
+}
+/* .heading {
+  color: #f15039;
+}
+.text {
+  color: #32ff0e;
+}
+.main-text {
+  color: #1313fa;
+}
+.second-heading {
+  color: #f15025;
+} */

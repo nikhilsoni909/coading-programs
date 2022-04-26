@@ -1,0 +1,17 @@
+div {
+  font-size: 10px;
+}
+
+.absolute {
+  font-size: 2em;
+  /* em follows font size of parent ie.class,browser font size */
+}
+/* em size depend on default browser font size */
+.reletive {
+  font-size: 32px;
+  /* default browser size does not depend on the browser font size  */
+  /* if default size is set medium then 1em=16px */
+}
+.hello {
+  font-size: 2rem;
+}

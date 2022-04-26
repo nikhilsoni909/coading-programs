@@ -1,0 +1,24 @@
+.hello {
+  font-family: roboto, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+}
+
+.one {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-style: italic;
+  text-align: center;
+  /* it will make the text to the center  */
+
+  color: red;
+}
+.two {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: lighter;
+  font-style: italic;
+  text-indent: 100px;
+  /* first line me gap aa jayega yeh karne se
+  we can use px or em or rem  */
+}

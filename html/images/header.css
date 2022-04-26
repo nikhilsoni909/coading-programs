@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  color: orange;
+}
+.banner {
+  background: url(./big_image.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./big_image.jpeg") center/cover no-repeat fixed;
+}
+.colorzilla {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f2a4c3+5,ebadff+47,6b68ff+100 */
+  background: rgb(242, 164, 195); /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    rgba(242, 164, 195, 1) 5%,
+    rgba(235, 173, 255, 1) 47%,
+    rgba(107, 104, 255, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    rgba(242, 164, 195, 1) 5%,
+    rgba(235, 173, 255, 1) 47%,
+    rgba(107, 104, 255, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    rgba(242, 164, 195, 1) 5%,
+    rgba(235, 173, 255, 1) 47%,
+    rgba(107, 104, 255, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2a4c3', endColorstr='#6b68ff',GradientType=1 ); /* IE6-9 */
+}

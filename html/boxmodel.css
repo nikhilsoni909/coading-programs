@@ -1,0 +1,39 @@
+/* for getting rid of all the default margin */
+/*     * {
+  margin: 0;
+} */
+h1 {
+  background: red;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 100px;
+  border-bottom-style: dashed;
+  border-bottom-color: blue;
+  border-bottom-width: 10px;
+}
+p {
+  background: blue;
+  padding: 20px;
+  margin: 50px;
+  border: 10px solid black;
+  border-radius: 10px;
+}
+h2 {
+  background: blue;
+  padding: 30px 60px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: red;
+  border-radius: 50%;
+  /* 30 is for upper and low and 60 is for right and left */
+}
+#hello {
+  background: yellow;
+  /* negative margin */
+  margin-top: -50px;
+  padding: 50px 20px 10px 60px;
+  border: 50px solid red;
+  /* upper right lower left*/
+}

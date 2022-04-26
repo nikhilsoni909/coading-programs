@@ -1,0 +1,41 @@
+body {
+  background: yellow;
+}
+.banner {
+  background: blue;
+}
+h1 {
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+@media screen and (min-width: 700px) {
+  body {
+    background: red;
+  }
+  .banner {
+    background: yellow;
+  }
+  h1 {
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+}
+@media screen and (min-width: 800px) {
+  body {
+    background: green;
+  }
+  .banner {
+    background: yellow;
+  }
+  h1 {
+    color: black;
+    text-align: center;
+    font-size: 100px;
+    text-decoration: underline;
+    font-family: "Courier New", Courier, monospace;
+  }
+}

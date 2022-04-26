@@ -1,0 +1,25 @@
+a {
+  font-size: 5em;
+  text-decoration: none;
+}
+.one {
+  line-height: 2.5em;
+  color: #ff0000;
+  letter-spacing: 5px;
+}
+.two {
+  word-spacing: 2em;
+}
+h1 {
+  text-transform: uppercase;
+  text-decoration: line-through;
+}
+.three {
+  line-height: 3em;
+  text-transform: capitalize;
+  text-decoration: underline;
+  word-wrap: break-word;
+}
+h2 {
+  text-decoration: overline;
+}

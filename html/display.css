@@ -1,0 +1,12 @@
+/* block=always start a new line  */
+/* inline=does not start and only take up as much as contant space */
+.block {
+  background: blue;
+  color: white;
+}
+.inline {
+  background: red;
+  color: white;
+  /* we can change display properties */
+  display: block;
+}

@@ -1,0 +1,21 @@
+#one {
+  color: rgb(255, 0, 0);
+  background: hsla(120, 100%, 50%, 0.25);
+  /* 0.25 is for opticity */
+}
+#two {
+  /* color: rgb(255, 0, 0.25);
+  background: rgba(0, 255, 0, 0.1); */
+  /* hex colors */
+  color: #ff0000; /*a=low opticity and f=highest opticity*/
+  background: #000;
+}
+#three {
+  color: #fff;
+  background: #f15025;
+}
+body {
+  /* background: rgba(255, 255, 0, 0.33); */
+  /* hex */
+  background: #aaf000;
+}

@@ -1,0 +1,19 @@
+a {
+  text-decoration: none;
+  background: #639f63;
+  padding: 1.2rem 1.5rem;
+  color: #222;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 10rem;
+}
+#one {
+  border: 0.2rem solid black;
+}
+#two {
+  outline-width: 0.2rem;
+  outline-style: solid;
+  outline-color: black;
+  /* outline-offset: 10px; */
+  outline-offset: -10px;
+}
